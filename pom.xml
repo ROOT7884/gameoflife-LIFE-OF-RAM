@@ -17,15 +17,15 @@
     <name>gameoflife</name>
     
     <distributionManagement>
-   <snapshotRepository>
+    <snapshotRepository>
       <id>nexus-snapshot</id>
-      <url>http://18.220.186.125:8081/nexus/content/repositories/snapshots/</url>
-   </snapshotRepository>
+      <url>http://52.14.102.107:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
     <repository>
       <id>nexus-release</id>
-      <url>http://18.220.186.125:8081/nexus/content/repositories/releases/</url>
+      <url>http://52.14.102.107:8081/nexus/content/repositories/releases/</url>
     </repository>
-</distributionManagement>
+    </distributionManagement>
     
     <prerequisites>
         <maven>3.0.0</maven>
