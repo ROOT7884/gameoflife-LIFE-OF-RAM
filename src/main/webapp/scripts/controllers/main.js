@@ -38,7 +38,7 @@ angular.module('gameoflifeApp')
             for (var i = 0; i < dimension; i++) {
                 arr[i] = [];
                 for (var j = 0; j < dimension; j++) {
-                    arr[i][j] = false;
+                    arr[i][j] = true;
                 }
             }
             return arr;
