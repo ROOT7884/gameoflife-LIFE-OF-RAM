@@ -1,0 +1,26 @@
+pipeline{
+    agent any
+    stages{
+        stage('1'){
+            steps{
+                script{
+                    git credentialsId: 'GIT', url: 'https://github.com/ROOT7884/gameoflife.git'
+                }
+            }
+        }
+        stage('2'){
+            steps{
+                script{
+                    sh "mvn package -Dmaven.test.skip=true"
+                }
+            }
+        }
+        stage('3'){
+            steps{
+                script{
+                    cleanWs()
+                }
+            }
+        }
+    }
+}
