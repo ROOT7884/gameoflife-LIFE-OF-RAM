@@ -126,3 +126,9 @@ Desktop.ini
 # Maven Wrapper
 ######################
 !.mvn/wrapper/maven-wrapper.jar
+
+#######################
+#Keys
+#####################
+sai
+sai.pub
